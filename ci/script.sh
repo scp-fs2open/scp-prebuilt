@@ -24,6 +24,7 @@ git push deploy --tags
 
 # Zip up the packages
 (cd linux && tar -cvzf bin-linux.tar.gz *)
+(cd linux_arm64 && tar -cvzf bin-linux_arm64.tar.gz *)
 (cd mac && tar -cvzf bin-mac.tar.gz *)
 
 (cd win32 && 7z a -r bin-win32.zip *)

@@ -10,6 +10,7 @@ on:
       # Only trigger when non-CI changes were made
       - 'doc/*'
       - 'linux/*'
+      - 'linux_arm64/*'
       - 'mac/*'
       - 'win32/*'
       - 'win64/*'
@@ -42,6 +43,7 @@ jobs:
           prerelease: false
           files: |
             linux/bin-linux.tar.gz
+            linux_arm64/bin-linux_arm64.tar.gz
             mac/bin-mac.tar.gz
             win32/bin-win32.zip
             win64/bin-win64.zip
