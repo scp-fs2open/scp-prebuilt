@@ -29,3 +29,4 @@ git push deploy --tags
 
 (cd win32 && 7z a -r bin-win32.zip *)
 (cd win64 && 7z a -r bin-win64.zip *)
+(cd winarm64 && 7z a -r bin-winarm64.zip *)
