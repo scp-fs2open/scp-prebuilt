@@ -1,3 +1,6 @@
 # Prevent accidental commits of the deploy key
 .travis/travis_deploy_key
 .travis/travis_deploy_key.pub
+
+# Mac trash
+.DS_Store
