@@ -4,6 +4,9 @@ This repository contains the prebuilt libraries required for the FreeSpace Open 
  * [FreeType](https://www.freetype.org/)
  * [OpenAL](https://openal-soft.org/)
  * [SDL](https://libsdl.org/)
+ * [Shaderc](https://github.com/google/shaderc)
+ * [MoltenVK](https://github.com/KhronosGroup/MoltenVK) (macOS only)
+ * [Vulkan-Loader](https://github.com/KhronosGroup/Vulkan-Loader) (Windows and Linux)
 
 The libraries are compiled for the three major platforms we support: Linux (x64, arm64), macOS (x64, arm64), and Windows (x32, x64, arm64). To make adding or updating libraries easier this repository automatically builds the packages and uploads them to [Github Releases](https://github.com/scp-fs2open/scp-prebuilt/releases). This happens when a new push is detected on the master branch and affects the libs themselves (and not the CI scripts).  Alternatively a build may be triggered manually from the Actions tab using the `Build Release Package` workflow.
 
